@@ -1,4 +1,4 @@
-import { Box, Button, FormControl, InputLabel, MenuItem, Select } from "@mui/material"
+import { FormControl, InputLabel, MenuItem, Select } from "@mui/material"
 import { useNoticias } from "../hooks/useNoticias"
 
 const CATEGORIAS = [
@@ -35,7 +35,7 @@ export const Formulario = () => {
 
                 </Select>
 
-                <Box
+                {/* <Box
                     sx={{marginTop: 2}}
                 >
                     <Button
@@ -44,7 +44,7 @@ export const Formulario = () => {
                         color="primary"
                     >Buscar noticias
                     </Button>
-                </Box>
+                </Box> */}
 
             </FormControl>
         </form>
