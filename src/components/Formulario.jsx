@@ -35,17 +35,6 @@ export const Formulario = () => {
 
                 </Select>
 
-                {/* <Box
-                    sx={{marginTop: 2}}
-                >
-                    <Button
-                        fullWidth
-                        variant='contained'
-                        color="primary"
-                    >Buscar noticias
-                    </Button>
-                </Box> */}
-
             </FormControl>
         </form>
     )
